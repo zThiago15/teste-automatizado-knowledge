@@ -3,7 +3,7 @@
 import codigoKnowledge from '../pageobjects/codigoKnowledge'
 const CodigoKnowledge = new codigoKnowledge()
 
-Given('que usuário acessou a página', () => {
+Given('que o usuário acessou a pagina', () => {
     CodigoKnowledge.acessarSite();
 })
 

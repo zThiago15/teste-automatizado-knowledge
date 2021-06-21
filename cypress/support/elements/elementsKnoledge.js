@@ -1,6 +1,6 @@
 class elementsKnowledge {
     botaoSobreNos = () => {
-        btnSobreNos = "a[href='sobre-nos.php']";
+        let btnSobreNos = "a[href='sobre-nos.php']";
         return btnSobreNos;
     }
 }
