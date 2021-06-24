@@ -34,16 +34,6 @@ class codigoCadastro {
         cy.get(CadastroElements.formCadastrar()).submit();
     }
 
-    // Cenário positivo
-    preencherSenhaForte(){
-        cy.get(CadastroElements.inputSenha()).type('T_Re$76nh');
-    }
-
-    cadastroEfetuado(){
-        cy.get(".perfil-usuario").should('be.visible');
-    }
-
-
     // Cenário negativo
     preencherSenhaFraca(){
         cy.get(CadastroElements.inputSenha()).type('teste');
