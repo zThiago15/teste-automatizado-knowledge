@@ -1,5 +1,5 @@
 @esqueci-senha
-Feature: Esqueci a senha
+Feature: Recuperar senha de aluno cadastrado
 
     @positive
     Scenario: E-mail para recuperar senha é enviado
