@@ -17,7 +17,7 @@
 * Recuperar senha de aluno cadastrado.
 
 
-    Utilizei o framework Cypress para testes automatizados em conjunto com o Cucumber para fazer escrita das features do teste em formato BDD(Behaviour-Driven Development). Features
+Utilizei o framework Cypress para testes automatizados em conjunto com o Cucumber para fazer escrita das features do teste em formato BDD(Behaviour-Driven Development). Features
 
 ---
 ## Tecnologias 💻
