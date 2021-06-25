@@ -1,6 +1,6 @@
-# Testes automatizados do projeto de TCC [Knoledge In Motion](github.com/CardosofGui/Knowledge-In-Motion) 
+# Testes automatizados do projeto de TCC [Knoledge In Motion](https://github.com/CardosofGui/Knowledge-In-Motion) 📖
 
-[![cypress-badge][cypress-badge]][cypress]
+[![cypress-badge][cypress-img]][cypress]
 [![cucumber-badge][cucumber-img]][cucumber]
 
 [cypress-img]: https://img.shields.io/badge/Cypress-v7.0-white
