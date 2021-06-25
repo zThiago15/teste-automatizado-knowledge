@@ -11,7 +11,7 @@
 
 ---
 ## Descrição 📌
-    Criei testes automatizados, utilizando Cypress com Cucumber, das seguintes funcionalidades:
+   Criei testes automatizados, utilizando Cypress com Cucumber, das seguintes funcionalidades:
 * Visualizar página sobre nós;
 * Fazer cadastro de aluno;
 * Recuperar senha de aluno cadastrado.
