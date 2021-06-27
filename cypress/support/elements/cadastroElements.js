@@ -34,6 +34,11 @@ class cadastroElements {
         let btnCadastrar = "form";
         return btnCadastrar;
     }
+
+    divPerfilUsuario = () => {
+        let divFiltroInstrutor = "div[class='perfil-usuario']";
+        return divFiltroInstrutor;
+    }
 }
 
 export default cadastroElements;

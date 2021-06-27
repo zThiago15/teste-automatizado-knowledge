@@ -34,6 +34,16 @@ class codigoCadastro {
         cy.get(CadastroElements.formCadastrar()).submit();
     }
 
+    // Cenário positivo
+    preencherSenhaForte(){
+        cy.get(CadastroElements.inputSenha()).type('F_R$56f4');
+    }
+    
+    cadastroEfetuado(){
+        cy.get(CadastroElements.divPerfilUsuario()).should('be.visible');
+    }
+    
+
     // Cenário negativo
     preencherSenhaFraca(){
         cy.get(CadastroElements.inputSenha()).type('teste');
@@ -43,6 +53,8 @@ class codigoCadastro {
         cy.get(".alert-error").should('be.visible');
     }
 
+
+    
 }
 
 export default codigoCadastro;

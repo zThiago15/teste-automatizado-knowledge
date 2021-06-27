@@ -2,6 +2,11 @@
 import codigoCadastro from '../pageobjects/codigoCadastro';
 const CodigoCadastro = new codigoCadastro();
 
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from falling the test
+    return false
+})
+
 Given('que o aluno acessou a página principal', () => {
     CodigoCadastro.acessarSite();
 })
@@ -14,8 +19,8 @@ And('preencher o campo de email corretamente', () => {
     CodigoCadastro.preencherEmailCorretamente();
 })
 
-And('preencher o campo de senha fraca', () => {
-    CodigoCadastro.preencherSenhaFraca();
+And('preencher o campo de senha com senha forte', () => {
+    CodigoCadastro.preencherSenhaForte();
 })
 
 And('clicar no botão de criar conta', () => {
@@ -34,6 +39,6 @@ And('clicar em cadastrar', () => {
     CodigoCadastro.enviarCadastro();
 })
 
-Then('então aparecerá erro de senha fraca', () => {
-    CodigoCadastro.paginaAtual();
+Then('então o cadastro será efetuado', () => {
+    CodigoCadastro.cadastroEfetuado();
 })
