@@ -1,6 +1,6 @@
-# Testes automatizados do projeto de TCC [Knoledge In Motion](github.com/CardosofGui/Knowledge-In-Motion) 
+# Testes automatizados do projeto de TCC [Knoledge In Motion](https://github.com/CardosofGui/Knowledge-In-Motion) 📖
 
-[![cypress-badge][cypress-badge]][cypress]
+[![cypress-badge][cypress-img]][cypress]
 [![cucumber-badge][cucumber-img]][cucumber]
 
 [cypress-img]: https://img.shields.io/badge/Cypress-v7.0-white
@@ -11,13 +11,13 @@
 
 ---
 ## Descrição 📌
-    Criei testes automatizados, utilizando Cypress com Cucumber, das seguintes funcionalidades:
+   Criei testes automatizados, utilizando Cypress com Cucumber, das seguintes funcionalidades:
 * Visualizar página sobre nós;
 * Fazer cadastro de aluno;
 * Recuperar senha de aluno cadastrado.
 
 
-    Utilizei o framework Cypress para testes automatizados em conjunto com o Cucumber para fazer escrita das features do teste em formato BDD(Behaviour-Driven Development). Features
+Utilizei o framework Cypress para testes automatizados em conjunto com o Cucumber para fazer escrita das features do teste em formato BDD(Behaviour-Driven Development). Features
 
 ---
 ## Tecnologias 💻
